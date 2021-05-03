@@ -1,0 +1,7 @@
+
+  create or replace  view DATAVAULTDEMO_DB.SS_RAW.raw_orders  as (
+    SELECT
+    *
+FROM DATAVAULTDEMO_DB.SS.ORDERS 
+--FROM DATAVAULTDEMO_DB.SS.ORDERS where UPDATE_TS > '2021-02-10 00:00:00.000'
+  );

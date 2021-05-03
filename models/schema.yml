@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: tpch_sample
+    database: DATAVAULTDEMO_DB
+    schema: SS
+    tables:
+      - name: SUPPLIERS
+      - name: PRODUCTS
+      - name: ORDERS
+      - name: SHIPPERS
+      - name: CUSTOMERS
+

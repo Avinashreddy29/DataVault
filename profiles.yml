@@ -1,0 +1,16 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+        type: snowflake
+        account: 'cta53801'
+        user: 'POLARINGEST'
+        
+        password: 'Datacoe@123'
+        database: DATAVAULTDEMO_DB
+        schema: SS
+ 
+        role: SYSADMIN
+        warehouse: POLARINGEST_WH
+        threads: 1
+        client_session_keep_alive: False
